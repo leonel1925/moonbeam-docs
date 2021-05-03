@@ -1,12 +1,8 @@
 arrange:
-  - README.md
-  - overview
+  - moonbeam-overview
   - getting-started
-  - networks
-  - governance
-  - staking
-  - integrations
-  - dapps-list
+  - tools-and-integrations
   - node-operators
-  - learn
-  - resources
+  - tutorials
+  - dapps-list
+

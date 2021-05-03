@@ -3,3 +3,4 @@ hide: false
 arrange:
   - networks
   - oracles
+  - indexers
