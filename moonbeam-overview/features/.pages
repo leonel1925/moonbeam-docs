@@ -1,6 +1,5 @@
-title: Learn
+title: Features
 arrange:
-  - technology.md
   - eth-compatibility.md
   - unified-accounts.md
   - xchain-plans.md

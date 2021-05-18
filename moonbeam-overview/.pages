@@ -1,8 +1,12 @@
 title: Overview
 arrange:
- - overview
+ - welcome.md
+ - vision-features.md
+ - why-polkadot.md
+ - roadmap.md
+ - technology.md
  - networks
- - learn
+ - features
  - code.md
  - links.md
  - glossary.md

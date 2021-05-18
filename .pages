@@ -1,4 +1,5 @@
 arrange:
+  - index.md
   - moonbeam-overview
   - getting-started
   - tools-and-integrations
