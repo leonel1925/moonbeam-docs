@@ -1,4 +1,4 @@
-title: Overview
+title: Platform
 arrange:
  - welcome.md
  - vision-features.md
@@ -6,7 +6,6 @@ arrange:
  - roadmap.md
  - technology.md
  - networks
- - features
  - code.md
  - links.md
  - glossary.md

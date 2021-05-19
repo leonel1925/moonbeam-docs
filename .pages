@@ -1,9 +1,7 @@
 arrange:
   - index.md
-  - moonbeam-overview
-  - getting-started
-  - tools-and-integrations
+  - builders
   - node-operators
+  - ecosystem
   - tutorials
-  - dapps-list
 

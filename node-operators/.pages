@@ -1,8 +1,6 @@
 title: Node Operators
 hide: false
 arrange:
-  - full-node.md
-  - collator.md
-  - telemetry.md
+  - networks
   - oracles
   - indexers
