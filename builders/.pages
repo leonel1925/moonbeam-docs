@@ -3,4 +3,5 @@ hide: false
 nav:
     - index.md
     - getting-started
-    - tools-and-integrations
+    - tools
+    - integrations
