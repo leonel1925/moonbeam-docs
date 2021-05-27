@@ -1,15 +1,21 @@
 ---
-title: Faucet
-description: Learn how to use the automated faucet bot on Discord to get test tokens for the Moonbeam TestNet, nicknamed Moonbase Alpha.
+title: TestNet
+description: The Moonbeam TestNet, named Moonbase Alpha, is the easiest way to get started with a Polkadot environment. Follow this tutorial to connect to the TestNet.
 ---
 
-# Moonbase Alpha Faucet
+# Connect to Moonbase Alpha
 
 ## Introduction
 
-Tokens on Moonbase Alpha, named DEV, will be issued on demand. Currently, there are two ways to get access to this token: through a Discord bot or manually.
+Moonbase Alpha has two endpoints available for users to connect to: one for HTTPS and one for WSS.
 
-## Discord - Mission Control
+--8<-- 'text/testnet/connect.md'
+
+## Get Tokens
+
+Tokens on Moonbase Alpha, named DEV, will be issued on demand. Currently, there are two ways to get tokens: through the [Mission Control Discord](#discord-mission-control) bot or [manually](#manual-procedure).
+
+### Discord - Mission Control
 
 To request tokens automatically, we've created a Discord bot (named Mission Control :sunglasses:) that will automatically send a maximum of 10 DEV tokens every 24 hours (per Discord user) when you enter your address. You can check it out on our [Discord channel](https://discord.gg/PfpUATX).
  
@@ -33,6 +39,6 @@ Mission Control will send you 10 DEV tokens and display your current account bal
 
 ![Discord2](/images/testnet/testnet-discord2.png)
 
-## Manual Procedure
+### Manual Procedure
 
 For token requests of more than the limited account allowed by our Discord bot, contact a moderator directly via our [Discord channel](https://discord.gg/PfpUATX). We are happy to provide the tokens needed to test your applications.
