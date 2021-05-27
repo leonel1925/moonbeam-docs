@@ -1,5 +1,6 @@
 title: Tutorials
-arrange:
+nav:
+  - index.md
   - getting-started
   - networks
   - governance

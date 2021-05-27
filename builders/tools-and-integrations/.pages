@@ -1,4 +1,5 @@
 title: Tools and Integrations
-arrange:
+nav:
+ - index.md
  - tools
  - integrations

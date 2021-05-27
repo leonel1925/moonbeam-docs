@@ -1,6 +1,7 @@
 title: Integrations
-arrange:
- - bridges
+nav:
+ - index.md
+ - chainbridge.md
  - oracles
  - thegraph.md
  - pubsub.md

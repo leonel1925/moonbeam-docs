@@ -1,5 +1,6 @@
 title: Features
-arrange:
+nav:
+  - index.md
   - eth-compatibility.md
   - unified-accounts.md
   - xchain-plans.md

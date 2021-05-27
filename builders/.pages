@@ -1,5 +1,6 @@
 title: Builders
 hide: false
-arrange:
-  - getting-started
-  - tools-and-integrations
+nav:
+    - index.md
+    - getting-started
+    - tools-and-integrations

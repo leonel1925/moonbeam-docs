@@ -1,6 +1,7 @@
 title: Ecosystem
 hide: false
-arrange:
+nav:
+  - index.md
   - platform
   - features
   - dapps-list
