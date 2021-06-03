@@ -52,6 +52,13 @@ You can run the Docker image using the following:
     --dev --ws-external --rpc-external
     ```
 
+=== "Windows"
+    ```
+    docker run --rm --name {{ networks.development.container_name }} -p 9944:9944 -p 9933:9933 \
+    purestake/moonbeam:{{ networks.development.build_tag }} \
+    --dev --ws-external --rpc-external
+    ```
+
 This should spin up a Moonbeam development node in instant seal mode for local testing, so that blocks are authored instantly as transactions are received.
 If successful, you should see an output showing an idle state waiting for blocks to be authored:
 
@@ -209,6 +216,10 @@ Your Moonbeam development node comes with ten pre-funded accounts for developmen
 bottom drive obey lake curtain smoke basket hold race lonely fit walk
 ```
 
+--8<-- 'code/setting-up-node/dev-accounts.md'
+
 Checkout the [Using MetaMask](/getting-started/local-node/using-metamask/) section to get started interacting with your accounts.
 
---8<-- 'text/setting-up-node/dev-accounts.md'
+Also, included with the development node is a prefunded account used for testing purposes:
+
+--8<-- 'code/setting-up-node/dev-testing-account.md'

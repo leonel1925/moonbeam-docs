@@ -28,7 +28,9 @@ First, we start with a fresh and default [MetaMask](https://metamask.io/) instal
 
 The details for the development accounts that comes pre-funded for this development node are as follows:
 
---8<-- 'text/setting-up-node/dev-accounts.md'
+--8<-- 'code/setting-up-node/dev-accounts.md'
+
+--8<-- 'code/setting-up-node/dev-testing-account.md'
 
 On the import screen, select “Private Key” and paste in one of the keys listed above. For this example we'll use Gerald's key:
 
@@ -79,4 +81,3 @@ If you head back over to your terminal where you have your Moonbeam node running
 !!! note
     If you end up resetting your development node using the Substrate purge-chain command, you will need to reset your MetaMask genesis account using Settings -> Advanced -> Reset Account. This will clear the transaction history from your accounts and reset the nonce. Make sure you don’t erase anything that you want to keep!
  
---8<-- 'text/common/we-want-to-hear-from-you.md'

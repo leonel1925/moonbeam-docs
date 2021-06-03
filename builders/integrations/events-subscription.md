@@ -11,8 +11,8 @@ The ability to subscribe to Ethereum-style events was added with the [release of
 ## Checking Prerequisites
 The examples in this guide are based on an Ubuntu 18.04 environment. You will also need the following:
 
- - Have MetaMask installed and [connected to Moonbase](/getting-started/testnet/metamask/)
- - Have an account with funds. You can get this from [Mission Control](/getting-started/testnet/faucet/)
+ - Have MetaMask installed and [connected to Moonbase](/getting-started/moonbase/metamask/)
+ - Have an account with funds. You can get this from [Mission Control](/getting-started/moonbase/faucet/)
  - Deploy your own ERC-20 token on Moonbase. You can do following [our Remix tutorial](/getting-started/local-node/using-remix/), while first pointing MetaMask to Moonbase
 
 --8<-- 'text/common/install-nodejs.md'
@@ -146,9 +146,6 @@ With pub/sub it is also possible to check whether a particular node you are subs
 
 ## Current Limitations
 The pub/sub implementation in [Frontier](https://github.com/paritytech/frontier) is still in active development. This first version allows DApp developers (or users in general) to subscribe to specific event types, but there are still some limitations. You may have noticed from previous examples that some of the fields are not showing proper information with the current version released, and that is because certain properties are yet to be supported by Frontier.
-
-## We Want to Hear From You
-If you have any feedback regarding Moonbase Alpha, event subscription, or other Moonbeam-related topics, feel free to reach out through our official development [Discord channel](https://discord.gg/PfpUATX).
 
 
 

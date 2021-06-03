@@ -4,6 +4,8 @@ nav:
  - eth-libraries
  - truffle.md
  - hardhat.md
+ - waffle-&-mars.md
+ - open-zeppelin
  - block-explorers.md
  - remix-ide.md
  - wallets.md

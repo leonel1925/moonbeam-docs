@@ -142,7 +142,7 @@ Regardless of the library, the strategy to deploy the compiled smart contract is
  - Ethers.js: [_deploy.js_](/snippets/code/ethers-contract-local/deploy.js)
  - Web3.py: [_deploy.py_](/snippets/code/web3py-contract/deploy.py)
 
-For simplicity, the deploy file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI and bytecode of the contract are imported. Also, the provider and account from (with the private key) are defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/testnet/).
+For simplicity, the deploy file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI and bytecode of the contract are imported. Also, the provider and account from (with the private key) are defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/moonbase/).
 
 The second section ("Deploy Contract") outlines the actual contract deployment part. Note that for this example, the initial value of the `number` variable was set to 5. Some of the key takeaways are discussed next.
 
@@ -208,7 +208,7 @@ Let's overview the _get.\*_ file (the simplest of them all), which fetches the c
  - Ethers.js: [_get.js_](/snippets/code/ethers-contract-local/get.js)
  - Web3.py: [_get.py_](/snippets/code/web3py-contract/get.py)
 
-For simplicity, the get file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI of the contract are imported. Also, the provider and the contract's address are defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/testnet/).
+For simplicity, the get file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI of the contract are imported. Also, the provider and the contract's address are defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/moonbase/).
 
 The second section ("Call Function") outlines the actual call to the contract. Regardless of the library, a contract instance is created (linked to the contract's address), from which the call method is queried. Some of the key takeaways are discussed next.
 
@@ -267,7 +267,7 @@ First, let's overview the _increment.\*_ file, which increments the current numb
  - Ethers.js: [_increment.js_](/snippets/code/ethers-contract-local/increment.js)
  - Web3.py: [_increment.py_](/snippets/code/web3py-contract/increment.py)
 
-For simplicity, the increment file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI of the contract are imported. The provider, the contract's address, and the value of the `increment` function are also defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/testnet/).
+For simplicity, the increment file is composed of two sections. In the first section ("Define Provider & Variables"), the library to use and the ABI of the contract are imported. The provider, the contract's address, and the value of the `increment` function are also defined. Note that `providerRPC` has both the standard development node RPC endpoint and the one for [Moonbase Alpha](/networks/moonbase/).
 
 The second section ("Send Function") outlines the actual function to be called with the transaction. Regardless of the library, a contract instance is created (linked to the contract's address), from which the function to be used is queried.
 
@@ -381,17 +381,32 @@ Next, run the increment file. You can use the get file to verify the value of th
 
 === "Web3.js"
     ```
-    node get.js && node increment.js && node get.js
+    # Get value
+    node get.js 
+    # Increment value
+    increment.js
+    # Get value
+    node get.js
     ```
 
 === "Ethers.js"
     ```
-    node get.js && node increment.js && node get.js
+    # Get value
+    node get.js 
+    # Increment value
+    increment.js
+    # Get value
+    node get.js
     ```
 
 === "Web3.py"
     ```
-    python3 get.py && python3 increment.py && python3 get.py
+    # Get value
+    python3 get.py 
+    # Increment value
+    python3 increment.py
+    # Get value
+    python3 get.py
     ```
 
 This will display the value before the increment transaction, the hash of the transaction, and the value after:
@@ -409,17 +424,32 @@ Lastly, run the reset file. Once again, you can use the get file to verify the v
 
 === "Web3.js"
     ```
-    node get.js && node reset.js && node get.js
+    # Get value
+    node get.js 
+    # Reset value
+    node reset.js 
+    # Get value
+    node get.js
     ```
 
 === "Ethers.js"
     ```
-    node get.js && node reset.js && node get.js
+    # Get value
+    node get.js 
+    # Reset value
+    node reset.js 
+    # Get value
+    node get.js
     ```
 
 === "Web3.py"
     ```
-    python3 get.py && python3 reset.py && python3 get.py
+    # Get value
+    python3 get.py 
+    # Reset value
+    python3 reset.py
+    # Get value
+    python3 get.py
     ```
 
 This will display the value before the reset transaction, the hash of the transaction, and the value after:
@@ -433,4 +463,3 @@ This will display the value before the reset transaction, the hash of the transa
 === "Web3.py"
     ![Reset Contract Web3py](/images/deploycontract/contract-reset-web3py.png)
 
---8<-- 'text/common/we-want-to-hear-from-you.md'
