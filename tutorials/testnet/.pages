@@ -1,4 +1,9 @@
 title: TestNet
 nav:
   - index.md
-  - metamask.md
+  - integrate-metamask.md
+  - mathwallet.md
+  - polkadot-js-apps.md
+  - hardhat.md
+  - governance
+  - staking

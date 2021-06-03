@@ -1,11 +1,9 @@
 title: Tools
 nav:
  - index.md
- - etherjs.md
- - web3js.md 
- - web3py.md
- - trufflebox.md
+ - eth-libraries
+ - truffle.md
  - hardhat.md
- - explorers.md
- - remix.md
- - wallets
+ - block-explorers.md
+ - remix-ide.md
+ - wallets.md

@@ -3,4 +3,5 @@ title: Governance
 template: main.html
 ---
 
-Hello Governance
+<div class="subsection-wrapper">
+</div>

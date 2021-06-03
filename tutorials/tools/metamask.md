@@ -3,6 +3,8 @@ title: MetaMask
 description: This guide walks you through how to connect MetaMask, an browser-based Ethereum wallet, to Moonbeam.
 ---
 
+// TODO: keeping this cause of merge conflicts but eventually need to get rid of it
+
 # Interacting with Moonbeam Using MetaMask
 
 ![Intro diagram](/images/integrations/integrations-metamask-banner.png)

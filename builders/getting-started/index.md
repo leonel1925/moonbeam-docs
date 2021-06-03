@@ -3,4 +3,5 @@ title: Getting Started
 template: main.html
 ---
 
-Hello Getting Started
+<div class="subsection-wrapper">
+</div>

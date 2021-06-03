@@ -1,5 +1,5 @@
 ---
-title: TestNet
+title: Eth
 template: main.html
 ---
 

@@ -50,4 +50,7 @@ Moonbase Alpha TestNet:
 
 ## Step-by-step Tutorials
 
-If you are interested in a more detailed step-by-step guide, you can go to our specific tutorials on using ethers.js on Moonbeam to [send a transaction](/getting-started/local-node/send-transaction/) or [deploy a contract](/getting-started/local-node/deploy-contract/).
+If you are interested in a more detailed step-by-step guide, you can go to our specific tutorials on using ethers.js on Moonbeam: 
+
+- [Send a transaction](/tutorials/local-node/send-transaction/) on a Moonbeam development node
+- [Deploy a contract](/tutorials/local-node/deploy-contract/) on a Moonbeam development node

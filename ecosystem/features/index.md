@@ -3,4 +3,5 @@ title: Features
 template: main.html
 ---
 
-Hello Features
+<div class="subsection-wrapper">
+</div>

@@ -1,4 +1,5 @@
 title: Networks
 nav:
-  - overview.md 
+  - index.md
+  - overview.md
   - testnet.md

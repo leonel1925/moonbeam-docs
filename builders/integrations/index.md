@@ -3,4 +3,5 @@ title: Integrations
 template: main.html
 ---
 
-Hello Integrations
+<div class="subsection-wrapper">
+</div>

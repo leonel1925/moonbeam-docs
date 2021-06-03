@@ -1,9 +1,9 @@
 title: Integrations
 nav:
  - index.md
- - chainbridge.md
+ - bridges
  - oracles
- - thegraph.md
- - pubsub.md
- - debug-trace.md
- - precompiles.md
+ - the-graph.md
+ - events-subscription.md
+ - debug-&-trace.md
+ - precompiled-contracts.md

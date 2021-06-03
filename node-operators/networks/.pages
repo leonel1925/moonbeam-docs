@@ -2,6 +2,6 @@ title: Networks
 hide: false
 nav:
   - index.md
-  - full-node.md
-  - collator.md
+  - run-a-node.md
+  - collators.md
   - telemetry.md

@@ -1,5 +1,5 @@
 ---
-title: TestNet
+title: Platform
 template: main.html
 ---
 

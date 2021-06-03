@@ -3,4 +3,5 @@ title: Local Node
 template: main.html
 ---
 
-Hello Local Node
+<div class="subsection-wrapper">
+</div>
