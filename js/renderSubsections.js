@@ -2,6 +2,15 @@
 const pathName = window.location.pathname.split('/');
 let currentPage = pathName[pathName.length - 2];
 
+// & symbols turn into %26 in the url or users can type in & directly into address bar
+// revert to "and" so we can grab the element using querySelectorAll
+if (currentPage.includes("%26")){
+  currentPage = currentPage.replace("%26", "and");
+}
+if (currentPage.includes("&")){
+  currentPage = currentPage.replace("&", "and");
+}
+
 // Get the nav element for the page
 const currentElements = document.querySelectorAll(`.${currentPage}`);
 
