@@ -152,9 +152,9 @@ With Polkadot JS Apps connected, you will see the Moonbeam development node wait
 
 ## Querying Account State
 
-With the release of [Moonbase Alpha v3](https://www.purestake.com/news/moonbeam-network-upgrades-account-structure-to-match-ethereum/), Moonbeam now works under a single account format, which is the Ethereum-styled H160 and is now also supported in Polkadot JS Apps. To check the balance of an address, you can simply import your account in the Accounts tab. You can find more information in the [Unified Accounts](/learn/unified-accounts/) section.
+With the release of [Moonbase Alpha v3](https://www.purestake.com/news/moonbeam-network-upgrades-account-structure-to-match-ethereum/), Moonbeam now works under a single account format, which is the Ethereum-styled H160 and is now also supported in Polkadot JS Apps. To check the balance of an address, you can simply import your account in the Accounts tab. You can find more information in the [Unified Accounts](/ecosystem/features/unified-accounts/) section.
  
-Nevertheless, leveraging the Ethereum full RPC capabilities of Moonbeam, you can use [MetaMask](/getting-started/local-node/using-metamask/) to check the balance of that address as well. In addition, you can also use other development tools, such as [Remix](/getting-started/local-node/using-remix/) and [Truffle](/getting-started/local-node/using-truffle/).
+Nevertheless, leveraging the Ethereum full RPC capabilities of Moonbeam, you can use [MetaMask](/tutorials/local-node/using-metamask/) to check the balance of that address as well. In addition, you can also use other development tools, such as [Remix](/tutorials/local-node/using-remix/) and [Truffle](/tutorials/local-node/using-truffle/).
 
 ## Common Commands, Flags and Options
 
@@ -218,7 +218,7 @@ bottom drive obey lake curtain smoke basket hold race lonely fit walk
 
 --8<-- 'code/setting-up-node/dev-accounts.md'
 
-Checkout the [Using MetaMask](/getting-started/local-node/using-metamask/) section to get started interacting with your accounts.
+Checkout the [Using MetaMask](/tutorials/local-node/using-metamask/) section to get started interacting with your accounts.
 
 Also, included with the development node is a prefunded account used for testing purposes:
 

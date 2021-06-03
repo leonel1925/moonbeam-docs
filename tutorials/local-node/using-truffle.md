@@ -16,7 +16,7 @@ This guide walks through the process of deploying a Solidity-based smart contrac
     This tutorial was created using the {{ networks.development.build_tag}} tag which is based on the {{ networks.moonbase.version }} release of [Moonbase Alpha](https://github.com/PureStake/moonbeam/releases/tag/{{ networks.moonbase.version }}). The Moonbeam platform and the [Frontier](https://github.com/paritytech/frontier) components it relies on for Substrate-based Ethereum compatibility are still under very active development.
     --8<-- 'text/common/assumes-mac-or-ubuntu-env.md'
 
-For this guide, you will need to have a Moonbeam development node running in `--dev` mode. This can be done by either following the steps detailed [here](/getting-started/local-node/setting-up-a-node/) or by using the [Moonbeam Truffle plugin](/integrations/trufflebox/#the-moonbeam-truffle-plugin), which we'll use in this tutorial's examples.
+For this guide, you will need to have a Moonbeam development node running in `--dev` mode. This can be done by either following the steps detailed [here](/builders/getting-started/local-node/) or by using the [Moonbeam Truffle plugin](/tutorials/local-node/moonbeam-truffle-box/#the-moonbeam-truffle-plugin), which we'll use in this tutorial's examples.
 
 ## Checking Prerequisites
 
@@ -36,9 +36,9 @@ As of this guide's publish date, the versions used were 15.12.0, 7.6.3, and 5.2.
 
 ## Getting Started with Truffle
 
-To ease the process of getting started with Truffle, we have [released the Moonbeam Truffle box](https://moonbeam.network/announcements/moonbeam-truffle-box-available-solidity-developers/). This provides a boilerplate setup to speed up the rampup process to deploy contracts on Moonbeam. To read more about the box, you can visit [this link](/integrations/trufflebox/).
+To ease the process of getting started with Truffle, we have [released the Moonbeam Truffle box](https://moonbeam.network/announcements/moonbeam-truffle-box-available-solidity-developers/). This provides a boilerplate setup to speed up the rampup process to deploy contracts on Moonbeam. To read more about the box, you can visit [this link](/tutorials/local-node/moonbeam-truffle-box/).
 
-To download the Moonbeam Truffle box, follow [these instructions](/integrations/trufflebox/#downloading-and-setting-up-the-truffle-box). Once inside the directoy, let's take a look at the `truffle-config.js` file (for the purpuse of this guide, some information was removed):
+To download the Moonbeam Truffle box, follow [these instructions](/tutorials/local-node/moonbeam-truffle-box/#downloading-and-setting-up-the-truffle-box). Once inside the directoy, let's take a look at the `truffle-config.js` file (for the purpuse of this guide, some information was removed):
 
 ```js
 const HDWalletProvider = require('@truffle/hdwallet-provider');
@@ -65,7 +65,7 @@ Note that we are using `HD-Wallet-Provider` from Truffle as the Hierarchical Det
 
 ## Running a Development Node
 
-To set up a Moonbeam development node, you can follow [this tutorial](/getting-started/local-node/setting-up-a-node/). The process takes around 40 minutes in total, and you need to install Substrate and all its dependencies. The Moonbeam Truffle plugin provides a way to get started with a development node much quicker, and the only requirement is to have Docker installed (at time of writing the Docker version used was 19.03.6).
+To set up a Moonbeam development node, you can follow [this tutorial](/builders/getting-started/local-node/). The process takes around 40 minutes in total, and you need to install Substrate and all its dependencies. The Moonbeam Truffle plugin provides a way to get started with a development node much quicker, and the only requirement is to have Docker installed (at time of writing the Docker version used was 19.03.6).
 
 To start a Moonbeam development node in your local environment, we need to first download the corresponding Docker image:
 
@@ -149,5 +149,5 @@ If successful, you will see deployment actions, including the address of the dep
 
 ![Successful contract deployment actions](/images/truffle/using-truffle-5.png)
 
-Once you have followed the [MetaMask guide](/getting-started/local-node/using-metamask/) and [Remix guide](/getting-started/local-node/using-remix/), you will be able to take the deployed contract address that is returned and load it into MetaMask or Remix.
+Once you have followed the [MetaMask guide](/tutorials/local-node/using-metamask/) and [Remix guide](/tutorials/local-node/using-remix/), you will be able to take the deployed contract address that is returned and load it into MetaMask or Remix.
 

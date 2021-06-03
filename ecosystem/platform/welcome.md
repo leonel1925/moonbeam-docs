@@ -27,15 +27,15 @@ Moonbeam will also be a parachain on the Polkadot network. That means it will ge
 
 Currently, there are two ways you can start building on Moonbeam: 
 
- - Build your own Moonbeam instance as a [development node](/getting-started/local-node/setting-up-a-node/)
- - [Connect](/getting-started/moonbase/connect/) to the [Moonbase Alpha TestNet](/networks/moonbase/)
+ - Build your own Moonbeam instance as a [development node](/builders/getting-started/local-node/)
+ - [Connect](/builders/getting-started/moonbase-alpha/) to the [Moonbase Alpha TestNet](/ecosystem/platform/networks/moonbase-alpha/)
 
 ### Wallets
 
-Currently, we have tested Moonbeam with the following wallets:
+Currently, we have tested Moonbeam with the following [wallets](/builders/tools/wallets):
 
- - [MetaMask](/integrations/wallets/metamask/)
- - [MathWallet](/integrations/wallets/mathwallet/)
+ - [MetaMask]
+ - [MathWallet]
 
 However, any wallet that works with an Ethereum custom network should work with Moonbeam as well!
 
@@ -43,14 +43,14 @@ However, any wallet that works with an Ethereum custom network should work with 
 
 Because of Moonbeam's Ethereum compatibility features, you can use the development tools you know and love:
 
- - [Remix](/integrations/remix/)
- - [Truffle](/integrations/trufflebox/)
- - [HardHat](/integrations/hardhat/)
- - [Web3.js](/integrations/ethlibraries/web3js/)
- - [Ethers.js](/integrations/ethlibraries/etherjs/)
- - [Web3.py](/integrations/ethlibraries/web3py/)
- - [The Graph](/integrations/thegraph/)
- - [Debug API & Trace Module](/integrations/debug-trace/)
+ - [Remix](/builders/tools/remix-ide/)
+ - [Truffle](/builders/tools/truffle/)
+ - [HardHat](/builders/tools/hardhat/)
+ - [Web3.js](/builders/tools/eth-libraries/web3.js/)
+ - [Ethers.js](/builders/tools/eth-libraries/ethers.js/)
+ - [Web3.py](/builders/tools/eth-libraries/web3.py/)
+ - [The Graph](/builders/integrations/the-graph/)
+ - [Debug API & Trace Module](/builders/integrations/debug-&-trace/)
 
  Want another Ethereum tool listed here? [Let us know!](https://discord.gg/PfpUATX)
 
@@ -58,15 +58,15 @@ Because of Moonbeam's Ethereum compatibility features, you can use the developme
 
  We also have a number of Oracles that can serve as data feed to your smart contracts:
 
- - [Chainlink](/integrations/oracles/chainlink/)
- - [Band Protocol](/integrations/oracles/band-protocol/)
- - [Razor Network](/integrations/oracles/razor-network/)
+ - [Chainlink](/builders/integrations/oracles/chainlink/)
+ - [Band Protocol](/builders/integrations/oracles/band-protocol/)
+ - [Razor Network](/builders/integrations/oracles/razor-network/)
 
 ### Bridges
 
 Currently, we have a fully functioning bridge implementation that connects Ethereum's Rinkeby/Kovan TestNets and Moonbase Alpha:
 
- - [ChainBridge](/integrations/bridges/ethereum/chainbridge/)
+ - [ChainBridge](/builders/integrations/bridges/eth/chainbridge/)
 
 ---
 

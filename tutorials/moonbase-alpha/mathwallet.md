@@ -9,9 +9,9 @@ description: This guide walks you through how to connect Mathwallet, a browser-b
 
 ## Introduction
 
-MathWallet [announced](https://mathwallet.org/moonbeam-wallet/en/) that is now natively supporting the [Moonbase Alpha TestNet](/networks/moonbase/). This means that you are now able to interact with Moonbase Alpha using another wallet besides MetaMask.
+MathWallet [announced](https://mathwallet.org/moonbeam-wallet/en/) that is now natively supporting the [Moonbase Alpha TestNet](/ecosystem/platform/networks/moonbase-alpha/). This means that you are now able to interact with Moonbase Alpha using another wallet besides MetaMask.
 
-In this tutorial, we'll go through how to setup MathWallet to connect to our TestNet. We'll also present a brief example of using MathWallet as a Web3 provider for other tools such as [Remix](/integrations/remix/).
+In this tutorial, we'll go through how to setup MathWallet to connect to our TestNet. We'll also present a brief example of using MathWallet as a Web3 provider for other tools such as [Remix](/builders/tools/remix-ide/).
 
 ## Connect MathWallet to Moonbeam
 
@@ -69,7 +69,7 @@ After clicking next, set a wallet name, and that is it! You should see your impo
 
 ## Using MathWallet
 
-MathWallet serves as a Web3 provider in tools such as [Remix](/integrations/remix/). By having MathWallet connected to Moonbase Alpha, you can deploy contracts as you would like using MetaMask, signing the transactions with MathWallet instead.
+MathWallet serves as a Web3 provider in tools such as [Remix](/builders/tools/remix-ide/). By having MathWallet connected to Moonbase Alpha, you can deploy contracts as you would like using MetaMask, signing the transactions with MathWallet instead.
 
 For example, in Remix, when deploying a smart contract, make sure you select the "Injected Web3" option in the "Environment" menu. If you have MathWallet connected, you will see the TestNet chain ID just below the box (_1287_) and your MathWallet account injected into Remix as well. When sending a transaction, you should see a similar pop-up from MathWallet:
 

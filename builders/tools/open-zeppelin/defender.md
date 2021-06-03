@@ -27,7 +27,7 @@ This section goes through the steps for getting started with OpenZeppelin Defend
  
 ### Checking Prerequisites
 
-The steps described in this section assume you have [MetaMask](https://metamask.io/) installed and connected to the Moonbase Alpha TestNet. If you haven't connected MetaMask to the TestNet, check out our [MetaMask integration guide](/integrations/wallets/metamask/).
+The steps described in this section assume you have [MetaMask](https://metamask.io/) installed and connected to the Moonbase Alpha TestNet. If you haven't connected MetaMask to the TestNet, check out our [MetaMask integration guide](/tutorials/moonbase-alpha/integrate-metamask/).
 
 In addition, you need to sign up for a free OpenZeppelin Defender account, which you can do on the main [Defender website](https://defender.openzeppelin.com/).
 
@@ -75,7 +75,7 @@ contract PausableBox is Initializable, PausableUpgradeable, OwnableUpgradeable {
 
 ### Connecting Defender to Moonbase Alpha
 
-Once you have an OpenZeppelin Defender account, log into the [Defender App](https://defender.openzeppelin.com/). In the main screen, with MetaMask [connected to Moonbase Alpha](/getting-started/moonbase/metamask/) click on the top right corner "Connect wallet" button:
+Once you have an OpenZeppelin Defender account, log into the [Defender App](https://defender.openzeppelin.com/). In the main screen, with MetaMask [connected to Moonbase Alpha](/tutorials/moonbase-alpha/integrate-metamask/) click on the top right corner "Connect wallet" button:
 
 ![OpenZeppelin Defender Connect](/images/openzeppelin/ozdefender-images1.png)
 
@@ -92,7 +92,7 @@ The first step to using Defender Admin is to add the contract you want to manage
  1. Set a contract name. This is only for display purposes
  2. Select the network where the contract that you want to manage is deployed. This is particularly useful when a contract is deployed with the same address to multiple networks. For this example, enter `Moonbase Alpha`
  3. Enter the contract address
- 4. Paste the contract ABI. This can be obtained either in [Remix](/integrations/remix/) or in the `.json` file generally created after the compilation process (for example, in Truffle or HardHat)
+ 4. Paste the contract ABI. This can be obtained either in [Remix](/builders/tools/remix-ide/) or in the `.json` file generally created after the compilation process (for example, in Truffle or HardHat)
  5. Check that the contract features were detected correctly
  6. Once you've checked all the information, click on the "Add" button
 

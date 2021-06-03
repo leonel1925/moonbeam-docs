@@ -107,7 +107,7 @@ module.exports = {
 };
 ```
 
-The `truffle-config.js` file also includes the private key of the genesis account for the development node. The address associated with this key holds all the tokens in this development environment. For deployments in the Moonbase Alpha TestNet, you need to provide the private key of an address that holds funds. To do so, you can create an account in MetaMask, fund it using the [TestNet faucet](/getting-started/moonbase/faucet/), and export its private key.
+The `truffle-config.js` file also includes the private key of the genesis account for the development node. The address associated with this key holds all the tokens in this development environment. For deployments in the Moonbase Alpha TestNet, you need to provide the private key of an address that holds funds. To do so, you can create an account in MetaMask, fund it using the [TestNet faucet](/builders/getting-started/moonbase-alpha/#discord-mission-control/), and export its private key.
 
 As with using Truffle in any Ethereum network, you can run the normal commands to compile, test, and deploy smart contracts in Moonbeam. For example, you can try the following commands using the included ERC20 token contract:
 
@@ -124,7 +124,7 @@ Depending on the network you want to deploy the contracts to, you need to substi
 
 ## The Moonbeam Truffle Plugin
 
-To set up a Moonbeam development node, you can currently follow [this tutorial](/getting-started/local-node/setting-up-a-node/). The process takes around 40 minutes in total, and you need to install Substrate and all its dependencies. The Moonbeam Truffle plugin provides a way to get started with a development node much quicker, and the only requirement is to have Docker installed (at the time of writing the Docker version used was 19.03.6). For more information on installing Docker, please visit [this page](https://docs.docker.com/get-docker/). To download the Docker image, run the following line:
+To set up a Moonbeam development node, you can currently follow [this tutorial](/builders/getting-started/local-node/). The process takes around 40 minutes in total, and you need to install Substrate and all its dependencies. The Moonbeam Truffle plugin provides a way to get started with a development node much quicker, and the only requirement is to have Docker installed (at the time of writing the Docker version used was 19.03.6). For more information on installing Docker, please visit [this page](https://docs.docker.com/get-docker/). To download the Docker image, run the following line:
 
 ```
 truffle run moonbeam install

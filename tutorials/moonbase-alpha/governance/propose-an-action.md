@@ -15,7 +15,7 @@ Proposals are one of the core elements of the governance system because they are
 
 In Moonbeam, users will be able to create, second, and vote on proposals using their H160 address and private key, that is, their regular Ethereum account!
 
-With the release of [Moonbase Alpha v6](https://github.com/PureStake/moonbeam/releases/tag/v0.6.0), users of the network can now submit proposals for public referenda in the TestNet. This guide outlines the process of how to create a proposal. The steps will go from its creation until it reaches public referenda. You can find a guide on how to vote on a proposal [here](/governance/voting/).
+With the release of [Moonbase Alpha v6](https://github.com/PureStake/moonbeam/releases/tag/v0.6.0), users of the network can now submit proposals for public referenda in the TestNet. This guide outlines the process of how to create a proposal. The steps will go from its creation until it reaches public referenda. You can find a guide on how to vote on a proposal [here]/tutorials/moonbase-alpha/governance/vote-on-a-proposal/).
 
 More information can be found in Polkadot's Wiki pages related to [Governance](https://wiki.polkadot.network/docs/en/learn-governance#council) and [Participate in Democracy](https://wiki.polkadot.network/docs/en/maintain-guides-democracy).
 
@@ -51,7 +51,7 @@ Currently, for Moonbase Alpha:
 
 This section goes over the process of creating a proposal, from a preimage until it reaches public referenda. Instead of making a generic example, this guide will actually create a real proposal that will serve as a base for this guide and others.
 
-To make a proposal in the network, you need to use the PolkadotJS Apps interface. To do so, you need import an Ethereum-style account first (H160 address), which you can do following [this guide](/integrations/wallets/polkadotjs/#creating-or-importing-an-h160-account). For this example, three accounts were imported and named with super original names: Alice, Bob, and Charley.
+To make a proposal in the network, you need to use the PolkadotJS Apps interface. To do so, you need import an Ethereum-style account first (H160 address), which you can do following [this guide](/tutorials/moonbase-alpha/polkadot-js-apps/#creating-or-importing-an-h160-account). For this example, three accounts were imported and named with super original names: Alice, Bob, and Charley.
 
 ![Accounts in PolkadotJS](/images/governance/governance-proposal-systemremark-1.png)
 

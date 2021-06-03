@@ -72,7 +72,7 @@ This section goes over the process of nominating collators. The tutorial will us
 | Collator 1 |     | {{ networks.moonbase.staking.collators.address1 }} |
 | Collator 2 |     | {{ networks.moonbase.staking.collators.address2 }} |
 
-To access staking features, you need to use the PolkadotJS Apps interface. To do so, you need to import/create an Ethereum-style account first (H160 address), which you can do by following [this guide](/integrations/wallets/polkadotjs/#creating-or-importing-an-h160-account).
+To access staking features, you need to use the PolkadotJS Apps interface. To do so, you need to import/create an Ethereum-style account first (H160 address), which you can do by following [this guide](/tutorials/moonbase-alpha/polkadot-js-apps/#creating-or-importing-an-h160-account).
 
 For this example, an account was imported and named with a super original name: Alice.
 
@@ -147,7 +147,7 @@ Once the transaction is confirmed, your account should not be listed in the `nom
 
 ## Staking Rewards
 
-As collators receive rewards from block production, nominators get rewards as well. A brief overview on how the rewards are calculated can be found in [this page](/staking/overview/#reward-distribution).
+As collators receive rewards from block production, nominators get rewards as well. A brief overview on how the rewards are calculated can be found in [this page](/ecosystem/features/staking/#reward-distribution).
 
 In summary, nominators will earn rewards based on their stake of the total nominations for the collator being rewarded (including the collator's stake as well).
 

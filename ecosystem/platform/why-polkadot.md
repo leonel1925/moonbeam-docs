@@ -4,7 +4,7 @@ description: Moonbeam is built on the Substrate framework and connected to the P
 ---
 # Why We're Building on Polkadot
 
-After extensive research, we decided to build Moonbeam using the [Substrate development framework](/resources/glossary/#substrate) and to deploy Moonbeam as a [parachain](/resources/glossary/#parachains) on the [Polkadot network](/resources/glossary/#polkadot). 
+After extensive research, we decided to build Moonbeam using the [Substrate development framework](/ecosystem/platform/glossary/#substrate) and to deploy Moonbeam as a [parachain](/ecosystem/platform/glossary/#parachains) on the [Polkadot network](/ecosystem/platform/glossary/#polkadot). 
 
 ## Substrate Blockchain Framework
 

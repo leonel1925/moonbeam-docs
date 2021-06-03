@@ -17,8 +17,8 @@ Supporting both RPC methods is an important milestone because many projects, suc
 
 Both calls are quite heavy on the node's side. Therefore, it is required to make this RPC against a locally running node with either the `--ethapi=debug` flag for `debug_traceTransaction`, and/or the `--ethapi=trace` flag for `trace_filter`. Currently, you can spin up two different kinds of nodes:
 
- - **Moonbeam development node** — run your own Moonbeam instance in your private environment. To do so, you can follow [this guide](/getting-started/local-node/setting-up-a-node/). Make sure to check the [advanced flags section](/getting-started/local-node/setting-up-a-node/#advanced-flags-and-options)
- - **Moonbase Alpha node** — run a full node of the TestNet and access your own private endpoints. To do so, you can follow [this guide](/node-operators/networks/full-node/). Make sure to check the [advanced flags section](/node-operators/networks/full-node/#advanced-flags-and-options)
+ - **Moonbeam development node** — run your own Moonbeam instance in your private environment. To do so, you can follow [this guide](/builders/getting-started/local-node/). Make sure to check the [advanced flags section](/builders/getting-started/local-node/#advanced-flags-and-options)
+ - **Moonbase Alpha node** — run a full node of the TestNet and access your own private endpoints. To do so, you can follow [this guide](/node-operators/networks/run-a-node/). Make sure to check the [advanced flags section](/node-operators/networks/run-a-node/#advanced-flags-and-options)
 
 ## Geth Debug API
 

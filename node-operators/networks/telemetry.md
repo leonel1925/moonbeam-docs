@@ -9,7 +9,7 @@ description: How to run telemetry for a full Parachain node for the Moonbeam Net
 
 ## Introduction
 
-With the release of Moonbase Alpha v6, you can spin up a node that connects to the Moonbase Alpha TestNet. You can check those steps in [this tutorial](/node-operators/networks/full-node/).
+With the release of Moonbase Alpha v6, you can spin up a node that connects to the Moonbase Alpha TestNet. You can check those steps in [this tutorial](/node-operators/networks/run-a-node/).
 
 This guide will provide the necessary steps to enable the telemetry server for your Moonbase Alpha node.
 
