@@ -21,7 +21,7 @@ As of writing of this guide, the versions used were 15.7.0 and 7.4.3, respective
 
 Also, you will need the following:
 
- - Have MetaMask installed and [connected to Moonbase](/tutorials/moonbase-alpha/integrate-metamask/)
+ - Have MetaMask installed and [connected to Moonbase](/tutorials/moonbase-alpha/wallets/metamask/)
  - Have an account with funds, which you can get from [Mission Control](/builders/getting-started/moonbase-alpha/#discord-mission-control/)
 
 Once all requirements have been met, you are ready to build with Hardhat.
@@ -102,7 +102,7 @@ contract Box {
 
 Let's modify our Hardhat configuration file so we can compile and deploy this contract to Moonbase Alpha.
 
-If you have not yet done so, create a MetaMask Account, [connect to Moonbase Alpha](/tutorials/moonbase-alpha/integrate-metamask/), and fund it through [Mission Control](/builders/getting-started/moonbase-alpha/#discord-mission-control/). We will use the private key of the account created to deploy the contract.
+If you have not yet done so, create a MetaMask Account, [connect to Moonbase Alpha](/tutorials/moonbase-alpha/wallets/metamask/), and fund it through [Mission Control](/builders/getting-started/moonbase-alpha/#discord-mission-control/). We will use the private key of the account created to deploy the contract.
 
 We start by requiring the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), which brings the [ethers.js][/integrations/ethers/] library that allows you to interact with the blockchain in a simple way. We can install `ethers` plugin by running:
 

@@ -1,9 +1,10 @@
 title: Moonbase Alpha
 nav:
   - index.md
-  - integrate-metamask.md
-  - mathwallet.md
-  - polkadot-js-apps.md
+  - wallets
+  - openzeppelin
   - hardhat.md
+  - waffle-&-mars.md
   - governance
   - staking
+  

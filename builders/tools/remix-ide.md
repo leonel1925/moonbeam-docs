@@ -39,5 +39,5 @@ Once the transaction is included, the contract appears in the "Deployed Contract
 ## Step-by-step Tutorials
 If you are interested in a more detailed step-by-step guide, go to our specific tutorials:
 
-- [Using Remix](/tutorials/local-node/using-remix/) with a Moonbeam development node. The steps can also be adapted to deploy on the Moonbase Alpha TestNet by [connecting MetaMask to it](/tutorials/moonbase-alpha/integrate-metamask/).
+- [Using Remix](/tutorials/local-node/using-remix/) with a Moonbeam development node. The steps can also be adapted to deploy on the Moonbase Alpha TestNet by [connecting MetaMask to it](/tutorials/moonbase-alpha/wallets/metamask/).
 

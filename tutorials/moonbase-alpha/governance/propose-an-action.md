@@ -9,7 +9,7 @@ description: How to send a proposal to be voted on Moonbeam via governance featu
 
 ## Introduction
 
-As mentioned in the [governance overview page](/governance/overview/#definitions), a proposal is a submission to the chain in which a token holder suggests for an action to be enacted by the system.
+As mentioned in the [governance overview page](/ecosystem/features/governance/ecosystem/features/governance/#general-definitions), a proposal is a submission to the chain in which a token holder suggests for an action to be enacted by the system.
 
 Proposals are one of the core elements of the governance system because they are the main tool for stakeholders to propose actions/changes, which other stakeholders then vote on.
 
@@ -51,7 +51,7 @@ Currently, for Moonbase Alpha:
 
 This section goes over the process of creating a proposal, from a preimage until it reaches public referenda. Instead of making a generic example, this guide will actually create a real proposal that will serve as a base for this guide and others.
 
-To make a proposal in the network, you need to use the PolkadotJS Apps interface. To do so, you need import an Ethereum-style account first (H160 address), which you can do following [this guide](/tutorials/moonbase-alpha/polkadot-js-apps/#creating-or-importing-an-h160-account). For this example, three accounts were imported and named with super original names: Alice, Bob, and Charley.
+To make a proposal in the network, you need to use the PolkadotJS Apps interface. To do so, you need import an Ethereum-style account first (H160 address), which you can do following [this guide](/tutorials/moonbase-alpha/wallets/polkadot-js-apps/#creating-or-importing-an-h160-account). For this example, three accounts were imported and named with super original names: Alice, Bob, and Charley.
 
 ![Accounts in PolkadotJS](/images/governance/governance-proposal-systemremark-1.png)
 

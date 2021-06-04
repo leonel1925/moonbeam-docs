@@ -28,7 +28,7 @@ To verify the installed version of Web3, you can use the `ls` command:
 ```
 npm ls web3
 ```
-As of writing this guide, the version used was 1.3.0. We will be also using [Remix](/builders/tools/remix-ide/), connecting it to the Moonbase Alpha TestNet via [MetaMask](/tutorials/moonbase-alpha/integrate-metamask/).
+As of writing this guide, the version used was 1.3.0. We will be also using [Remix](/builders/tools/remix-ide/), connecting it to the Moonbase Alpha TestNet via [MetaMask](/tutorials/moonbase-alpha/wallets/metamask/).
 
 ## Verify Signatures with ECRECOVER
 
@@ -92,7 +92,7 @@ contract ECRECOVER{
 }
 ```
 
-Using the [Remix compiler and deployment](/tutorials/local-node/using-remix/) and with [MetaMask pointing to Moonbase Alpha](/tutorials/moonbase-alpha/integrate-metamask/), we can deploy the contract and call the `verify()` method that returns _true_ if the address returned by `ecrecover` is equal to the address used to sign the message (related to the private key and needs to be manually set in the contract).
+Using the [Remix compiler and deployment](/tutorials/local-node/using-remix/) and with [MetaMask pointing to Moonbase Alpha](/tutorials/moonbase-alpha/wallets/metamask/), we can deploy the contract and call the `verify()` method that returns _true_ if the address returned by `ecrecover` is equal to the address used to sign the message (related to the private key and needs to be manually set in the contract).
 
 ## Hashing with SHA256
 

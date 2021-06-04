@@ -32,7 +32,7 @@ Currently, there are two ways you can start building on Moonbeam:
 
 ### Wallets
 
-Currently, we have tested Moonbeam with the following [wallets](/builders/tools/wallets):
+Currently, we have tested Moonbeam with the following [wallets](/builders/tools/wallets/):
 
  - [MetaMask]
  - [MathWallet]

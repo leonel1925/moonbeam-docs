@@ -58,4 +58,4 @@ If you are interested in a more detailed step-by-step guide, go to our specific 
 
 - [Using Truffle
 ](/tutorials/local-node/using-truffle/) with a Moonbeam development node
-- Get started in minutes with the [Moonbeam Truffle Box](/tutorials/tools/trufflebox) with a Moonbeam development node or the Moonbase Alpha TestNet
+- Get started in minutes with the [Moonbeam Truffle Box](/tutorials/local-node/moonbeam-truffle-box) with a Moonbeam development node or the Moonbase Alpha TestNet

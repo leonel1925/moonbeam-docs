@@ -27,7 +27,7 @@ This section goes through the steps for getting started with OpenZeppelin Defend
  
 ### Checking Prerequisites
 
-The steps described in this section assume you have [MetaMask](https://metamask.io/) installed and connected to the Moonbase Alpha TestNet. If you haven't connected MetaMask to the TestNet, check out our [MetaMask integration guide](/tutorials/moonbase-alpha/integrate-metamask/).
+The steps described in this section assume you have [MetaMask](https://metamask.io/) installed and connected to the Moonbase Alpha TestNet. If you haven't connected MetaMask to the TestNet, check out our [MetaMask integration guide](/tutorials/moonbase-alpha/wallets/metamask/).
 
 In addition, you need to sign up for a free OpenZeppelin Defender account, which you can do on the main [Defender website](https://defender.openzeppelin.com/).
 
@@ -75,7 +75,7 @@ contract PausableBox is Initializable, PausableUpgradeable, OwnableUpgradeable {
 
 ### Connecting Defender to Moonbase Alpha
 
-Once you have an OpenZeppelin Defender account, log into the [Defender App](https://defender.openzeppelin.com/). In the main screen, with MetaMask [connected to Moonbase Alpha](/tutorials/moonbase-alpha/integrate-metamask/) click on the top right corner "Connect wallet" button:
+Once you have an OpenZeppelin Defender account, log into the [Defender App](https://defender.openzeppelin.com/). In the main screen, with MetaMask [connected to Moonbase Alpha](/tutorials/moonbase-alpha/wallets/metamask/) click on the top right corner "Connect wallet" button:
 
 ![OpenZeppelin Defender Connect](/images/openzeppelin/ozdefender-images1.png)
 

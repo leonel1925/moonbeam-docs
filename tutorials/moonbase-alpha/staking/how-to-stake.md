@@ -72,7 +72,7 @@ This section goes over the process of nominating collators. The tutorial will us
 | Collator 1 |     | {{ networks.moonbase.staking.collators.address1 }} |
 | Collator 2 |     | {{ networks.moonbase.staking.collators.address2 }} |
 
-To access staking features, you need to use the PolkadotJS Apps interface. To do so, you need to import/create an Ethereum-style account first (H160 address), which you can do by following [this guide](/tutorials/moonbase-alpha/polkadot-js-apps/#creating-or-importing-an-h160-account).
+To access staking features, you need to use the PolkadotJS Apps interface. To do so, you need to import/create an Ethereum-style account first (H160 address), which you can do by following [this guide](/tutorials/moonbase-alpha/wallets/polkadot-js-apps/#creating-or-importing-an-h160-account).
 
 For this example, an account was imported and named with a super original name: Alice.
 

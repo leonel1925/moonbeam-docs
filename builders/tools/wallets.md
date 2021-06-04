@@ -33,9 +33,9 @@ If you are interested in a more detailed step-by-step guide, go to our specific 
 
 - MetaMask
     - Connect to a [Moonbeam development node](/tutorials/local-node/using-metamask/)
-    - Connect to [Moonbase Alpha](/tutorials/testnet/metamask/)
-    - [Interacting with Moonbeam Using MetaMask](/tutorials/tools/metamask/)
+    - Connect to [Moonbase Alpha](/tutorials/moonbase-alpha/wallets/metamask/)
+    - [Integrate MetaMask into a DApp](/tutorials/moonbase-alpha/wallets/integrate-metamask/)
 - MathWallet
-    - [Interacting with Moonbeam Using MathWallet](/tutorials/testnet/mathwallet/)
+    - [Interacting with Moonbeam Using MathWallet](/tutorials/moonbase-alpha/wallets/mathwallet/)
 - Polkadot JS Apps
-    - [Interacting with Moonbeam Using Polkadot JS Apps](/tutorials/testnet/polkadotjs/)
+    - [Interacting with Moonbeam Using Polkadot JS Apps](/tutorials/moonbase-alpha/wallets/polkadot-js-apps/)

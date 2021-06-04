@@ -6,7 +6,7 @@ description: Learn how to use one of the most popular Ethereum developer tools, 
 # Interacting with Moonbeam Using Remix
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//RT_f1-ga_n4' frameborder='0' allowfullscreen></iframe></div>
-<style>.caption { font-family: Open Sans, sans-serif; font-size: 0.9em; color: rgba(170, 170, 170, 1); font-style: italic; letter-spacing: 0px; position: relative;}</style><div class='caption'>You can find all of the relevant code for this tutorial on the <a href="{{ config.site_url }}resources/code-snippets/">code snippets page</a></div>
+<style>.caption { font-family: Open Sans, sans-serif; font-size: 0.9em; color: rgba(170, 170, 170, 1); font-style: italic; letter-spacing: 0px; position: relative;}</style>
 
 ## Introduction
 
@@ -49,7 +49,7 @@ Next, let's paste the following smart contract into the editor tab that comes up
 --8<-- 'code/remix-local/contract.md'
 ```
 
-This is a simple ERC-20 contract based on the current Open Zeppelin ERC-20 template. It creates MyToken with symbol MYTOK and mints the entirety of the initial supply to the creator of the contract.
+This is a simple ERC-20 contract based on the current OpenZeppelin ERC-20 template. It creates MyToken with symbol MYTOK and mints the entirety of the initial supply to the creator of the contract.
 
 Once you have pasted the contract into the editor, it should look like this:
 
@@ -59,7 +59,7 @@ Now, navigate to the compile sidebar option to press the â€œCompile MyToken.solâ
 
 ![Compile MyToken.sol](/images/remix/using-remix-6.png)
 
-You will see Remix download all of the Open Zeppelin dependencies and compile the contract.
+You will see Remix download all of the OpenZeppelin dependencies and compile the contract.
 
 ## Deploying a Contract to Moonbeam Using Remix
 

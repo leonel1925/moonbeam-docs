@@ -1,5 +1,5 @@
 ---
-title: Open Zeppelin
+title: Wallets
 template: main.html
 ---
 

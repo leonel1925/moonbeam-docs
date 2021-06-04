@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: OpenZeppelin
 description:  Learn how to use OpenZeppelin products on Moonbeam thanks to its Ethereum compatibility features
 ---
 
@@ -25,9 +25,11 @@ Currently, the following OpenZeppelin products/solutions work on the different n
 |    Contract Wizard    |     |          ✓          |     |         ✓       |
 |       Defender        |     |          X          |     |         ✓       |
 
+## Step-by-step Tutorials
+
 You will find a corresponding tutorial for each product in the following links:
 
- - [**Contract Wizard**]/builders/tools/open-zeppelin/contracts/#openzeppelin-contract-wizard) — where you'll find a guide on how to use OpenZeppelin web-based wizard to create different token contracts with different functionalities
- - [**Contracts & Libraries**]/builders/tools/open-zeppelin/contracts/#deploying-openzeppelin-contracts-on-moonbeam) — where you'll find tutorials to deploy the most common token contracts using OpenZeppelin's templates: ERC20, ERC721 and ERC1155
- - [**Defender**]/builders/tools/open-zeppelin/defender/) — where you'll find a guide on how to use OpenZeppelin Defender to manage your smart contracts in the Moonbase Alpha TestNet
+ - [Contract Wizard](/tutorials/moonbase-alpha/openzeppelin/contracts-&-libraries/#openzeppelin-contract-wizard) — where you'll find a guide on how to use OpenZeppelin web-based wizard to create different token contracts with different functionalities
+ - [Contracts & Libraries](/tutorials/moonbase-alpha/openzeppelin/contracts-&-libraries/#deploying-openzeppelin-contracts-on-moonbeam) — where you'll find tutorials to deploy the most common token contracts using OpenZeppelin's templates: ERC20, ERC721 and ERC1155
+ - [Defender](/tutorials/moonbase-alpha/openzeppelin/defender/) — where you'll find a guide on how to use OpenZeppelin Defender to manage your smart contracts in the Moonbase Alpha TestNet
 

@@ -44,8 +44,8 @@ A collator has an account associated with its collation activities. This account
 
 Currently, you have two ways of proceeding in regards having an account in [PolkadotJS](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwss.testnet.moonbeam.network#/accounts):
 
- - Importing an existing (or create a new) H160 account from external wallets or services such as [MetaMask](/tutorials/moonbase-alpha/integrate-metamask/) and [MathWallet](/tutorials/moonbase-alpha/mathwallet/)
- - Create a new H160 account with [PolkadotJS](/tutorials/moonbase-alpha/polkadot-js-apps/)
+ - Importing an existing (or create a new) H160 account from external wallets or services such as [MetaMask](/tutorials/moonbase-alpha/wallets/metamask/) and [MathWallet](/tutorials/moonbase-alpha/wallets/mathwallet/)
+ - Create a new H160 account with [PolkadotJS](/tutorials/moonbase-alpha/wallets/polkadot-js-apps/)
 
 Once you have an H160 account imported to PolkadotJS, you should see it under the "Accounts" tab. Make sure you have your public address at hand (`PUBLIC_KEY`), as it is needed to configure your [deploy your full node](/node-operators/networks/run-a-node/) with the collation options.
 
@@ -91,7 +91,7 @@ The following table presents some of the timings in regards to different actions
 
 ## Session Keys
 
-With the release of [Moonbase Alpha v8](/ecosystem/platform/networks/testnet/), collators will sign blocks using an author ID, which is basically a [session key](https://wiki.polkadot.network/docs/en/learn-keys#session-keys). To match the Substrate standard, Moonbeam collator's session keys are [SR25519](https://wiki.polkadot.network/docs/en/learn-keys#what-is-sr25519-and-where-did-it-come-from). This guide will show you how you can create/rotate your session keys associated to your collator node.
+With the release of [Moonbase Alpha v8](/ecosystem/platform/networks/moonbase-alpha/), collators will sign blocks using an author ID, which is basically a [session key](https://wiki.polkadot.network/docs/en/learn-keys#session-keys). To match the Substrate standard, Moonbeam collator's session keys are [SR25519](https://wiki.polkadot.network/docs/en/learn-keys#what-is-sr25519-and-where-did-it-come-from). This guide will show you how you can create/rotate your session keys associated to your collator node.
 
 First, make sure you're [running a collator node](/node-operators/networks/run-a-node/) and you have exposed the RPC ports. Once you have your collator node running, your terminal should print similar logs:
 

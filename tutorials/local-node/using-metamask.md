@@ -6,13 +6,13 @@ description: This tutorial walks you through how to interact with a local Moonbe
 # Interacting with a Moonbeam Node Using MetaMask
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//hrpBd2-a7as' frameborder='0' allowfullscreen></iframe></div>
-<style>.caption { font-family: Open Sans, sans-serif; font-size: 0.9em; color: rgba(170, 170, 170, 1); font-style: italic; letter-spacing: 0px; position: relative;}</style><div class='caption'>You can find all of the relevant code for this tutorial on the <a href="{{ config.site_url }}resources/code-snippets/">code snippets page</a></div>
+<style>.caption { font-family: Open Sans, sans-serif; font-size: 0.9em; color: rgba(170, 170, 170, 1); font-style: italic; letter-spacing: 0px; position: relative;}</style>
 
 ## Introduction
 
 MetaMask can be used to connect to Moonbeam through the Moonbase Alpha TestNet or via a locally running Moonbeam development node.
 
-This guide outlines the steps needed to connect MetaMask to a self-contained Moonbeam development node in order to send tokens between accounts. If you haven’t already set up your own local dev node, refer to the [Setting Up a Node](/builders/getting-started/local-node/) guide, or follow the instructions in the [GitHub repository](https://github.com/PureStake/moonbeam/). If you're interested in learning how to connect MetaMask to the Moonbase Alpha TestNet, please head over to the [Integrate MetaMask](/tutorials/testnet/metamask/) page.
+This guide outlines the steps needed to connect MetaMask to a self-contained Moonbeam development node in order to send tokens between accounts. If you haven’t already set up your own local dev node, refer to the [Setting Up a Node](/builders/getting-started/local-node/) guide, or follow the instructions in the [GitHub repository](https://github.com/PureStake/moonbeam/). If you're interested in learning how to connect MetaMask to the Moonbase Alpha TestNet, please head over to the [Integrate MetaMask](/tutorials/moonbase-alpha/wallets/metamask/) page.
 
 !!! note
     This tutorial was created using the {{ networks.development.build_tag}} tag which is based on the {{ networks.moonbase.version }} release of [Moonbase Alpha](https://github.com/PureStake/moonbeam/releases/tag/{{ networks.moonbase.version }}). The Moonbeam platform and the [Frontier](https://github.com/paritytech/frontier) components it relies on for Substrate-based Ethereum compatibility are still under very active development. 
@@ -42,7 +42,7 @@ You should end up with an imported “Account 2” that looks like this:
 
 ## Connecting MetaMask to Moonbeam
 
-MetaMask can be configured to connect to a Moonbeam development node or the [Moonbase Alpha TestNet](/tutorials/testnet/metamask/).
+MetaMask can be configured to connect to a Moonbeam development node or the [Moonbase Alpha TestNet](/tutorials/moonbase-alpha/wallets/metamask/).
 
 To connect MetaMask to Moonbeam, navigate to Settings -> Networks -> Add Network. This is where you can configure which network you would like MetaMask to connect to, using the following network configurations:
 

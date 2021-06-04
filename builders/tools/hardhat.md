@@ -62,4 +62,4 @@ module.exports = {
 
 If you are interested in a more detailed step-by-step guide, check out our specific tutorial about using Hardhat with Moonbeam:
 
-- [Building with Hardhat](/tutorials/testnet/hardhat/) on the Moonbase Alpha TestNet
+- [Building with Hardhat](/tutorials/moonbase-alpha/hardhat/) on the Moonbase Alpha TestNet

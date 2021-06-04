@@ -22,7 +22,7 @@ In this guide, you'll be creating a TypeScript project to write, compile, and te
 
 As of writing of this guide, the versions used were 15.12.0 and 7.6.3, respectively.
 
-Waffle and Mars can be used with a locally running Moonbeam development node, but for the purposes of this guide, you will be deploying to Moonbase Alpha. Therefore, you will need a funded account for development. You can choose to [create an account with MetaMask](/tutorials/moonbase-alpha/integrate-metamask/#creating-a-wallet) or [create an account with PolkadotJS Apps](/tutorials/moonbase-alpha/polkadot-js-apps/#creating-or-importing-an-h160-account). 
+Waffle and Mars can be used with a locally running Moonbeam development node, but for the purposes of this guide, you will be deploying to Moonbase Alpha. Therefore, you will need a funded account for development. You can choose to [create an account with MetaMask](/tutorials/moonbase-alpha/wallets/metamask/#creating-a-wallet) or [create an account with PolkadotJS Apps](/tutorials/moonbase-alpha/wallets/polkadot-js-apps/#creating-or-importing-an-h160-account). 
 
 Once you've created an account you'll need to export the private key to be used in this guide. Before moving on, ensure your account has funds and, if needed, get `DEV` tokens from the [faucet](/builders/getting-started/moonbase-alpha/#discord-mission-control/).
 
@@ -83,7 +83,7 @@ touch tsconfig.json
 Now, you should have a basic TypeScript project with the necessary dependencies to get started building with Waffle and Mars.
 ## Add a Contract
 
-For this guide, you will create an ERC-20 contract that mints a specified amount of tokens to the contract creator. It's based on the Open Zeppelin ERC-20 template.
+For this guide, you will create an ERC-20 contract that mints a specified amount of tokens to the contract creator. It's based on the OpenZeppelin ERC-20 template.
 
 1. Create a directory to store your contracts and a file for the smart contract:
 ```
@@ -150,7 +150,7 @@ npm run build
 
 ![Waffle compiler output](/images/waffle-mars/waffle-mars-1.png)
 
-After compiling your contracts, Waffle stores the JSON output in the `build` directory. The contract in this guide is based on Open Zeppelin's ERC-20 template, so relevant ERC-20 JSON files will appear in the `build` directory too. 
+After compiling your contracts, Waffle stores the JSON output in the `build` directory. The contract in this guide is based on OpenZeppelin's ERC-20 template, so relevant ERC-20 JSON files will appear in the `build` directory too. 
 
 ### Test with Waffle
 
