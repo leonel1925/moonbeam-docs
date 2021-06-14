@@ -5,6 +5,8 @@ description: Learn how to use MetaMask with the Moonbeam TestNet. This tutorial 
 
 # Integrate MetaMask into a DApp
 
+![Intro banner](/images/integrations/integrations-metamask-banner.png)
+
 ## Introduction
 
 With the release of MetaMask's [Custom Networks API](https://consensys.net/blog/metamask/connect-users-to-layer-2-networks-with-the-metamask-custom-networks-api/), users can be prompted to add Moonbeam's Testnet, Moonbase Alpha. 

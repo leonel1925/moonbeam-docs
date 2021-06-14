@@ -5,6 +5,8 @@ description: Learn how to use MetaMask with the Moonbeam TestNet. This tutorial 
 
 # Connect MetaMask to Moonbase Alpha
 
+![Intro banner](/images/integrations/integrations-metamask-banner.png)
+mars
 ## Introduction
 
 MetaMask can be adapted to connect to a [Moonbeam development node](/tutorials/local-node/metamask/) or the Moonbase Alpha TestNet. This guide outlines the steps needed to connect MetaMask to Moonbase Alpha. This is much simpler because you don't need to have a locally running Moonbeam node, you can directly connect to the public TestNet.

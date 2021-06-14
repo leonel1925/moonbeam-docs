@@ -5,7 +5,7 @@ description: Learn more about Moonbeam compatible wallets including MetaMask, Ma
 
 # Wallets
 
-![Intro diagram](/images/integrations/integrations-truffle-banner.png)
+![Wallets Introduction](/images/wallets/wallets-banner.png)
 
 ## Introduction
 

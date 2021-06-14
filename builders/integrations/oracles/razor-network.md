@@ -28,7 +28,7 @@ Each data-feed has a Job ID attached to it. For example:
 
 You can check Job IDs for each data-feed at the following [link](https://razorscan.io/#/custom). Price feeds are updated every 5 minutes. More information can be found in [Razor's documentation website][https://docs.razor.network/].
 
-## Get Data From Bridge Contract
+## Bridge Contract
 
 Contracts can query on-chain data such as token prices, from Razor Network's oracle by implementing the interface of the Bridge contract, which exposes the `getResult` and `getJob` functions.
 
@@ -42,100 +42,12 @@ interface Razor {
     function getJob(uint256 id) external view returns(string memory url, string memory selector, string memory name, bool repeat, uint256 result);
 }
 ```
-
-The first function, `getResult`, takes the Job ID associated with the data-feed and fetches the price. For example, if we pass in `1`, we will receive the price of the data-feed related to the Job ID.
-
-The second function, `getJob`, takes the Job ID associated with the data-feed and fetches the general information regarding the data-feed, such as the name of the data-feed, the price, and the URL being used to fetch the prices.
-
-### Example Contract
+### Moonbase Alpha Bridge Contract
 
 We've deployed the bridge contract in the Moonbase Alpha TestNet (at address `{{ networks.moonbase.razor.bridge_address }}`) so you can quickly check the information fed from Razor Network's oracle. 
 
-The only requirement is the Bridge interface, which defines `getResult` structure and makes the functions available to the contract for queries.
+## Step-by-step Tutorials
 
+For a more detailed step-by-step guide on how to use the Razor interface and Moonbase Alpha bridge contract to retrieve data, check out the following tutorial:
 
-We can use the following `Demo` script. It provides various functions:
-
- - fetchPrice: a _view_ function that queries a single Job ID. For example, to fetch the price of `ETH` in `USD`, we will need to send the Job ID `1`
- - fetchMultiPrices: a _view_ function that queries multiple Job IDs. For example, to fetch the price of `ETH` and `BTC` in `USD`, we will need to send the Job IDs `[1,2]`
- - savePrice: a _public_ function that queries a single Job ID. This sends a transaction and modifies the `price` variable stored in the contract.
- - saveMultiPrices: a _public_ function that queries multiple Job IDs. For example, to fetch the price of `ETH` and `BTC` in `USD`, we will need to send the Job IDs `[1,2]`. This sends a transaction and modifies the `pricesArr` array stored in the contract, which will hold the price of each pair in the same order as specified in the input
-
-```sol
-pragma solidity 0.6.11;
-
-interface Razor {
-    function getResult(uint256 id) external view returns (uint256);
-    function getJob(uint256 id) external view returns(string memory url, string memory selector, string memory name, bool repeat, uint256 result);
-}
-
-contract Demo {
-    // Interface
-    Razor internal razor;
-    
-    // Variables
-    uint256 public price;
-    uint256[] public pricesArr;
-
-    constructor(address _bridgeAddress) public {
-        razor = Razor(_bridgeAddress); // Bridge Contract Address
-                                       // Moonbase Alpha {{ networks.moonbase.razor.bridge_address }}
-    }
-
-    function fetchPrice(uint256 _jobID) public view returns (uint256){
-        return razor.getResult(_jobID);
-    }
-    
-    function fetchMultiPrices(uint256[] memory jobs) external view returns(uint256[] memory){
-        uint256[] memory prices = new uint256[](jobs.length);
-        for(uint256 i=0;i<jobs.length;i++){
-            prices[i] = razor.getResult(jobs[i]);
-        }
-        return prices;
-    }
-    
-    function savePrice(uint _jobID) public {
-        price = razor.getResult(_jobID);
-    }
-
-    function saveMultiPrices(uint[] calldata _jobIDs) public {
-        delete pricesArr;
-        
-        for (uint256 i = 0; i < _jobIDs.length; i++) {
-            pricesArr.push(razor.getResult(_jobIDs[i]));
-        }
-
-    }
-}
-```
-
-### Try it on Moonbase Alpha
-
-The easiest way to try their Oracle implementation is by pointing the interface to the Bridge contract deployed at address `{{ networks.moonbase.razor.bridge_address }}`:
-
-```sol
-pragma solidity 0.6.11;
-
-interface Razor {
-    function getResult(uint256 id) external view returns (uint256);
-    function getJob(uint256 id) external view returns(string memory url, string memory selector, string memory name, bool repeat, uint256 result);
-}
-```
-
-With it, you will have two view functions available, very similar to our previous examples:
-
- - getPrice: provides the price feed for a single job ID given as input to the function. For example, to fetch the price of `ETH` in `USD`, we will need to send the Job ID `1`
- - getMultiPrices: provides the price feed for multiple Job IDs given as an array input to the function. For example, to fetch the price of `ETH` and `BTC` in `USD`, we will need to send the job IDs `[1,2]`
-
-Let's use [Remix](/builders/tools/remix-ide/) to fetch the `BTC` price in `USD`.
-
-After creating the file and compiling the contract, head to the "Deploy and Run Transactions" tab, enter the contract address (`{{ networks.moonbase.razor.bridge_address }}`), and click on "At Address." Make sure you have set the "Environment" to "Injected Web3" so that you are connected to Moonbase Alpha (through the Web3 provider of the wallet). 
-
-![Razor Remix deploy](/images/razor/razor-demo1.png)
-
-This will create an instance of the demo contract that you can interact with. Use the functions `getPrice()` and `getMultiPrices()` to query the data of the corresponding pair.
-
-![Razor check price](/images/razor/razor-demo2.png)
-
-## Contact Us
-If you have any feedback regarding implementing the Razor Network Oracle on your project or any other Moonbeam related topic, feel free to reach out through our official development [Discord server](https://discord.com/invite/PfpUATX).
+- [Using Razor Network Oracle with Moonbeam](/tutorials/moonbase-alpha/oracles/razor-network/)
