@@ -5,5 +5,5 @@ nav:
  - oracles
  - the-graph.md
  - events-subscription.md
- - debug-&-trace.md
+ - debug-trace.md
  - precompiled-contracts.md

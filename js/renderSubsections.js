@@ -2,15 +2,6 @@
 const pathName = window.location.pathname.split('/');
 let currentPage = pathName[pathName.length - 2];
 
-// & symbols turn into %26 in the url or users can type in & directly into address bar
-// revert to "and" so we can grab the element using querySelectorAll
-if (currentPage.includes("%26")){
-  currentPage = currentPage.replace("%26", "and");
-}
-if (currentPage.includes("&")){
-  currentPage = currentPage.replace("&", "and");
-}
-
 // Get the nav section for the page
 const sections = document.querySelectorAll(`.${currentPage.toLowerCase()}`);
 
@@ -22,7 +13,10 @@ const appendCards = (section) => {
   for (let subsection of section.children) {
     const subsectionContent = subsection.innerText.trim();
     let subsectionName = subsectionContent.includes("\n") ? subsectionContent.split("\n")[0] : subsectionContent;
-    const subsectionLink = subsectionName.includes(' ') ? subsectionName.replaceAll(' ', '-').toLowerCase() : subsectionName.toLowerCase();
+    let subsectionLink = subsectionName.includes(' ') ? subsectionName.replaceAll(' ', '-').toLowerCase() : subsectionName.toLowerCase();
+    if (subsectionLink.includes('-&-')){
+      subsectionLink = subsectionLink.replace('-&-', '-');
+    }
   
     wrapper.innerHTML += `
     <div class="card">

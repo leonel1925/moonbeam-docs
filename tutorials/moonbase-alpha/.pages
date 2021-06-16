@@ -4,8 +4,8 @@ nav:
   - wallets
   - openzeppelin
   - hardhat.md
-  - waffle-&-mars.md
-  - debug-&-trace.md
+  - waffle-mars.md
+  - debug-trace.md
   - events-subscription.md
   - precompiled-contracts.md
   - chainbridge.md
