@@ -1,9 +1,12 @@
 // Get the current page the user is on
 const pathName = window.location.pathname.split('/');
-let currentPage = pathName[pathName.length - 2];
+const currentPage = pathName[pathName.length - 2];
 
 // Get the nav section for the page
-const sections = document.querySelectorAll(`.${currentPage.toLowerCase()}`);
+let sections;
+if (currentPage){
+  sections = document.querySelectorAll(`.${currentPage.toLowerCase()}`)
+}
 
 // Get the div to append the subsection cards to
 const wrapper = document.querySelector(".subsection-wrapper");
@@ -22,7 +25,7 @@ const appendCards = (section) => {
     <div class="card">
       <a href="${window.location.href}${subsectionLink}">
         <h2 class="title">${subsectionName}</h2>
-        <img class="icon" src="/images/index-pages/${subsectionLink}.png">
+        <img class="icon" src="/images/index-pages${window.location.pathname}${subsectionLink}.png">
       </a>
     </div>
     `
