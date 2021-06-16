@@ -3,5 +3,5 @@ hide: false
 nav:
   - index.md
   - networks
-  - oracles
-  - indexers
+  - oracle-nodes
+  - indexer-nodes

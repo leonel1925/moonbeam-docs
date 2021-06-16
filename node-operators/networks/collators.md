@@ -13,7 +13,7 @@ Collators are members of the network that maintain the parachains they take part
 
 With the release of Moonbase Alpha v6, users can spin up full nodes and activate the `collate` feature and participate in the ecosystem as collators.
 
-Moonbeam uses the [Nimbus Parachain Consensus Framework](/ecosystem/features/parachain-consensus/). This provides a two-step filter to allocate collators to a block production slot:
+Moonbeam uses the [Nimbus Parachain Consensus Framework](/learn/features/parachain-consensus/). This provides a two-step filter to allocate collators to a block production slot:
 
  - The parachain staking filter selects the top {{ networks.moonbase.staking.max_collators }} collators in terms of tokens staked in the network. This filtered pool is called selected candidates, and selected candidates are rotated every round
  - The fixed size subset filter picks a pseudo-random subset of the previously selected candidates for each block production slot
@@ -91,7 +91,7 @@ The following table presents some of the timings in regards to different actions
 
 ## Session Keys
 
-With the release of [Moonbase Alpha v8](/ecosystem/platform/networks/moonbase-alpha/), collators will sign blocks using an author ID, which is basically a [session key](https://wiki.polkadot.network/docs/en/learn-keys#session-keys). To match the Substrate standard, Moonbeam collator's session keys are [SR25519](https://wiki.polkadot.network/docs/en/learn-keys#what-is-sr25519-and-where-did-it-come-from). This guide will show you how you can create/rotate your session keys associated to your collator node.
+With the release of [Moonbase Alpha v8](/learn/platform/networks/moonbase-alpha/), collators will sign blocks using an author ID, which is basically a [session key](https://wiki.polkadot.network/docs/en/learn-keys#session-keys). To match the Substrate standard, Moonbeam collator's session keys are [SR25519](https://wiki.polkadot.network/docs/en/learn-keys#what-is-sr25519-and-where-did-it-come-from). This guide will show you how you can create/rotate your session keys associated to your collator node.
 
 First, make sure you're [running a collator node](/node-operators/networks/run-a-node/) and you have exposed the RPC ports. Once you have your collator node running, your terminal should print similar logs:
 

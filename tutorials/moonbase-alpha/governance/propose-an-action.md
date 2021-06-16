@@ -9,7 +9,7 @@ description: How to send a proposal to be voted on Moonbeam via governance featu
 
 ## Introduction
 
-As mentioned in the [governance overview page](/ecosystem/features/governance/ecosystem/features/governance/#general-definitions), a proposal is a submission to the chain in which a token holder suggests for an action to be enacted by the system.
+As mentioned in the [governance overview page](/learn/features/governance/learn/features/governance/#general-definitions), a proposal is a submission to the chain in which a token holder suggests for an action to be enacted by the system.
 
 Proposals are one of the core elements of the governance system because they are the main tool for stakeholders to propose actions/changes, which other stakeholders then vote on.
 

@@ -1,5 +1,5 @@
 ---
-title: Oracle Nodes
+title: Indexer Nodes
 template: main.html
 ---
 

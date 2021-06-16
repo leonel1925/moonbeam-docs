@@ -13,7 +13,7 @@ The Graph is a decentralized and open-source indexing protocol for querying netw
 
 ## Run a Graph Node
 
-You can run a Graph node against a locally running Moonbeam development node or a full Moonbase Alpha node. To learn how to run a Graph Node against Moonbeam, check out the [Run a Graph Node against Moonbase Alpha](/node-operators/indexers/graph-node/) page of our documentation. These instructions can be adapted to be used with a Moonbeam development node. 
+You can run a Graph node against a locally running Moonbeam development node or a full Moonbase Alpha node. To learn how to run a Graph Node against Moonbeam, check out the [Run a Graph Node against Moonbase Alpha](/node-operators/indexer-nodes/graph-node/) page of our documentation. These instructions can be adapted to be used with a Moonbeam development node. 
 
 ## Step-by-step Tutorials
 

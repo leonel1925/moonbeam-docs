@@ -34,7 +34,7 @@ Remember that the LINK token payment is set to zero.
 
 Chainlink's Oracles can tentatively provide many different types of data feeds with the use of external adapters. However, for simplicity, our Oracle node is configured to deliver only price feeds.
 
-If you are interested in running your own Oracle node in Moonbeam, please visit [this guide](/node-operators/oracles/chainlink-node/). Also, we recommend going through [Chainlink's documentation site](https://docs.chain.link/docs).
+If you are interested in running your own Oracle node in Moonbeam, please visit [this guide](/node-operators/oracle-nodes/chainlink-node/). Also, we recommend going through [Chainlink's documentation site](https://docs.chain.link/docs).
 
 ## Step-by-step Tutorials
 

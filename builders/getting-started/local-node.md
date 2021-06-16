@@ -152,7 +152,7 @@ With Polkadot JS Apps connected, you will see the Moonbeam development node wait
 
 ## Querying Account State
 
-With the release of [Moonbase Alpha v3](https://www.purestake.com/news/moonbeam-network-upgrades-account-structure-to-match-ethereum/), Moonbeam now works under a single account format, which is the Ethereum-styled H160 and is now also supported in Polkadot JS Apps. To check the balance of an address, you can simply import your account in the Accounts tab. You can find more information in the [Unified Accounts](/ecosystem/features/unified-accounts/) section.
+With the release of [Moonbase Alpha v3](https://www.purestake.com/news/moonbeam-network-upgrades-account-structure-to-match-ethereum/), Moonbeam now works under a single account format, which is the Ethereum-styled H160 and is now also supported in Polkadot JS Apps. To check the balance of an address, you can simply import your account in the Accounts tab. You can find more information in the [Unified Accounts](/learn/features/unified-accounts/) section.
  
 Nevertheless, leveraging the Ethereum full RPC capabilities of Moonbeam, you can use [MetaMask](/tutorials/local-node/using-metamask/) to check the balance of that address as well. In addition, you can also use other development tools, such as [Remix](/tutorials/local-node/using-remix/) and [Truffle](/tutorials/local-node/using-truffle/).
 

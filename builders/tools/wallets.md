@@ -9,7 +9,7 @@ description: Learn more about Moonbeam compatible wallets including MetaMask, Ma
 
 ## Introduction
 
-Moonbeam's underlying [account system](/ecosystem/features/unified-accounts/) allows users to interact with Moonbeam using a single Ethereum-style (H160) address. To create or interact with an account on Moonbeam, check out one of the Moonbeam compatible wallets: [MetaMask](https://metamask.io/), [MathWallet](https://mathwallet.org/), [Polkadot JS Apps](https://polkadot.js.org/apps/), and [AirGap](https://airgap.it/).
+Moonbeam's underlying [account system](/learn/features/unified-accounts/) allows users to interact with Moonbeam using a single Ethereum-style (H160) address. To create or interact with an account on Moonbeam, check out one of the Moonbeam compatible wallets: [MetaMask](https://metamask.io/), [MathWallet](https://mathwallet.org/), [Polkadot JS Apps](https://polkadot.js.org/apps/), and [AirGap](https://airgap.it/).
 
 ## Moonbeam Compatible Wallets
 
