@@ -3,7 +3,7 @@ nav:
  - index.md
  - bridges
  - oracles
- - the-graph.md
+ - indexers
  - events-subscription.md
  - debug-trace.md
  - precompiled-contracts.md

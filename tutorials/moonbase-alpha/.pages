@@ -9,7 +9,7 @@ nav:
   - events-subscription.md
   - precompiled-contracts.md
   - chainbridge.md
-  - the-graph.md
+  - indexers
   - oracles
   - governance
   - staking

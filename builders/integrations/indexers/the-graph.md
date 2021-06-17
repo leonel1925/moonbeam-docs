@@ -17,6 +17,6 @@ You can run a Graph node against a locally running Moonbeam development node or 
 
 ## Step-by-step Tutorials
 
-To then get started with your Graph Node on Moonbase Alpha, check out the following detailed, step-by-step guides:
+To get started with a Graph Node on Moonbase Alpha, check out the following detailed, step-by-step guides:
 
-- Create a subgraph for a lottery contract [Using The Graph on Moonbeam](/tutorials/moonbase-alpha/the-graph/)
+- Create a subgraph for a lottery contract [Using The Graph on Moonbeam](/tutorials/moonbase-alpha/indexers/the-graph/)
